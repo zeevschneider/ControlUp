@@ -12,6 +12,7 @@ from support.weather_api import WeatherApi
 def test_history(place_name_or_location, date):
     w_a = WeatherApi()
     history_data = w_a.history_weather(place_name_or_location, date)
+    # TODO - handle also a xml response
     content = json.loads(history_data.content)
     logging.info("Verify history date")
     with pytest.assume:
@@ -38,6 +39,7 @@ def test_history(place_name_or_location, date):
 def test_search_or_autocomplete(search_param, response_length):
     w_a = WeatherApi()
     response = w_a.search_by_param(search_param)
+    # TODO - handle also a xml response
     content = json.loads(response.content)
     logging.info("Verify the length of a response")
     assert len(content) == response_length
