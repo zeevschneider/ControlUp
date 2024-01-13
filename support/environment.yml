@@ -1,0 +1,7 @@
+base_url:
+  http://api.weatherapi.com/v1
+
+# TODO - for security reasons this should be kept in Vault (or similar)
+# and read from there
+api_key:
+  a09aa04c55bb433f99694150241001
