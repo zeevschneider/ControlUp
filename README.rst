@@ -14,17 +14,18 @@ General
 ========
 This program is a home assignment of ControlUp.
 It demonstrates testing related abilities of an API provided by the WeatherApi site
+using Python with Pytest testing framework
 
 
 Specifications
 ===============
-The assignment has it's own specification described in the "Home assignment.pdf" document
+The assignment has it's own specification described in the "Home Assignment.txt" document
 
 Installation and deployment
 ===========================
 
 1. Open a command line on your machine (verify git installation) and run the following:
-    git clone git@github.com:zeevschneider/ControlUp.git
+    git clone https://github.com/zeevschneider/ControlUp.git
 
 2. Make sure that you have a machine with Python >= 3.6 installed
 

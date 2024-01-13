@@ -1,0 +1,20 @@
+Please do the following to be able to use the API for the automation project:
+
+Go to https://www.weatherapi.com/
+
+Sing up and get your API key
+
+Go to https://www.weatherapi.com/docs/ API Documentation
+
+
+Please create automation API test project and test the following:
+
+Get the weather history in Paris by date as it was 3 days ago.
+Test that the forecast date is correct.
+Test that max, min and avg Celsius values are in the correct range.
+
+Get the weather history by “lat” and “lon” values from the response in section 1 by date as it was 3 days ago
+Test that sunrise time is the same as sunrise time from section 1
+
+Get search results of location objects by the value “sama”
+Test that response returns 5 location objects.
