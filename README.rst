@@ -33,11 +33,13 @@ Installation and deployment
 
 4. The best way is to install requirements into a virtual environment in order not to soil
     your python with unnecessary packages:
-    Follow the instructions:
-    for Windows - https://programwithus.com/learn/python/pip-virtualenv-windows
-    for Mac - https://programwithus.com/learn/python/pip-virtualenv-mac
+    a. Follow the instructions:
+        for Windows - https://programwithus.com/learn/python/pip-virtualenv-windows
+        for Mac - https://programwithus.com/learn/python/pip-virtualenv-mac
+    b. Run the following command to install packages that are listed in the requirements.txt file:
+       pip install -r requirements.txt
 
 Usage
 ======
 Run tests:
-    CD to {your virtual env}/ControlUp and type "pytest"
+    CD to {your virtual env}/ControlUp/control_up_tests and type "pytest"
