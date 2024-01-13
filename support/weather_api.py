@@ -1,5 +1,5 @@
 import requests
-from support.initialize import GetEnv
+from support.env_data import GetEnv
 
 
 class WeatherApi:
